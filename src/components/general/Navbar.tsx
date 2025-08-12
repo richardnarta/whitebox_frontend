@@ -21,7 +21,7 @@ const Navbar = () => {
     };
   }, [navRef]);
 
-  const navLinks = ['Home', 'Weddings', 'Portraiture', 'Studio', 'Printing'];
+  const navLinks = ['Home', 'Wedding', 'Portraiture', 'Studio', 'Printing'];
 
   return (
     <nav ref={navRef} className="sticky top-0 z-50 bg-brand-white/80 backdrop-blur-md shadow-sm">

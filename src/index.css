@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px; /* Adjust this value as needed */
+}
+
 @theme {
   --color-brand-gold: #C0A062;
   --color-brand-gold-100: #f2edde;

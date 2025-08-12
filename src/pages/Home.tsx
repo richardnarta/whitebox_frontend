@@ -1,17 +1,25 @@
 import Navbar from '../components/general/Navbar';
+import HeroSection from '../components/home/Hero';
+import AboutSection from '../components/home/About';
+import WeddingsSection from '../components/home/Wedding';
+import PortraitureSection from '../components/home/Portraiture';
+import StudioSection from '../components/home/Studio';
+import PrintingSection from '../components/home/Printing';
+import FaqSection from '../components/general/FAQ';
+import Footer from '../components/general/Footer';
 
 function Home() {
   return (
     <div className="bg-brand-white min-h-screen">
       <Navbar />
-      
-      <main>
-        <div className="container mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0 h-96">
-            <div className="border-4 border-dashed border-neutral-200 rounded-lg h-full" />
-          </div>
-        </div>
-      </main>
+      <HeroSection />
+      <AboutSection />
+      <WeddingsSection />
+      <PortraitureSection />
+      <StudioSection />
+      <PrintingSection />
+      <FaqSection />
+      <Footer />
     </div>
   )
 }
