@@ -24,8 +24,8 @@ const Navbar = () => {
   const navLinks = ['Home', 'Wedding', 'Portraiture', 'Studio', 'Printing'];
 
   return (
-    <nav ref={navRef} className="sticky top-0 z-50 bg-brand-white/80 backdrop-blur-md shadow-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <nav ref={navRef} className="sticky top-0 z-50 shadow-sm">
+      <div className="container bg-brand-white/80 backdrop-blur-md mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="hidden lg:flex items-center">
             <a href="/" className="font-serif text-2xl font-bold text-brand-black">
@@ -60,11 +60,10 @@ const Navbar = () => {
               <HiPhone size={24}/>
             </a>
             </ContactModal>
-            
           </div>
         </div>
       </div>
-      <div className={`absolute w-full lg:hidden bg-brand-white shadow-lg ${isMenuOpen ? 'block' : 'hidden'}`}>
+      <div className={`absolute w-full lg:hidden bg-brand-white/80 backdrop-blur-md shadow-lg ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-3 sm:px-3 text-center">
           {navLinks.map((link) => (
             <a key={link} href={`#${link.toLowerCase()}`} className="block px-3 py-2 rounded-md text-base font-medium text-brand-black hover:bg-brand-gold-100" onClick={() => setIsMenuOpen(false)}>
