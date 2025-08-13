@@ -12,7 +12,7 @@ const serviceLinks = [
 // MODIFIED: Combined all social links into one array for consistent styling and ordering
 const socialLinks = [
   { service: "WhatsApp", handle: "General Inquiries", href: "https://wa.me/6282180395039", icon: FaWhatsapp },
-  { service: "Wedding Videography", handle: "@whiteboxstudio", href: "https://www.instagram.com/whiteboxstudio", icon: FaInstagram },
+  { service: "Wedding Videography", handle: "@whitebox_studio", href: "https://www.instagram.com/whitebox_studio", icon: FaInstagram },
   { service: "Portraiture", handle: "@whiteboxportraiture", href: "https://www.instagram.com/whiteboxportraiture", icon: FaInstagram },
   { service: "Studio Rent", handle: "@whiteboxstudiorent", href: "https://www.instagram.com/whiteboxstudiorent", icon: FaInstagram },
   { service: "Printing", handle: "@whiteboxprinting", href: "https://www.instagram.com/whiteboxprinting", icon: FaInstagram },
