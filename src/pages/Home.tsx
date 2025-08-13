@@ -12,13 +12,17 @@ function Home() {
   return (
     <div className="bg-brand-white min-h-screen">
       <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <WeddingsSection />
-      <PortraitureSection />
-      <StudioSection />
-      <PrintingSection />
-      <FaqSection />
+
+      <main className="overflow-x-hidden">
+        <HeroSection />
+        <AboutSection />
+        <WeddingsSection />
+        <PortraitureSection />
+        <StudioSection />
+        <PrintingSection />
+        <FaqSection />
+      </main>
+
       <Footer />
     </div>
   )

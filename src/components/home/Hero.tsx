@@ -39,7 +39,7 @@ const HeroSection = () => {
           <motion.div variants={fadeInUp(0.5, 20)}>
             {/* MODIFIED: Changed button to an <a> tag to enable scrolling */}
             <a
-              href="#weddings"
+              href="#wedding"
               className="inline-block mt-8 px-8 py-3 text-white font-semibold rounded-md bg-gradient-to-r from-brand-gold-500 to-brand-gold-600 hover:from-brand-gold-600 hover:to-brand-gold-700 transition-all duration-300 whitespace-nowrap shadow-lg hover:shadow-xl"
             >
               Explore Our Services
